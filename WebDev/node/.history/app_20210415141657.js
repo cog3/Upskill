@@ -1,0 +1,7 @@
+const path = require('path')
+
+const pathSeperator = path.sep
+console.log(pathSeperator)
+
+const filePath = path.join('/content', '/subfolder', 'test.txt')
+console.log(filePath)
